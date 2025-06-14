@@ -1,0 +1,18 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    color: light-dark(#545454,white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+a {
+    color: light-dark(#6984f0, #add9ff);
+    text-decoration-style: dotted;
+}
+a:visited {
+    color: light-dark(#6855a1,#d19cff);
+}
